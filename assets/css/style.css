@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 2;
+    margin: 0;
+    background-color: rgb(73,71,69);
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(73,71,69);
+    color: #ffffff;
+    justify-content: center;
+}
+header, nav{
+    background-color: rgb(73,71,69);
+    color:black;
+}
+article{
+    background-color: darkgrey;
+}
+header, li {
+    display: flex;
+}
+header nav ul li {
+    justify-content: center;
+}
+header nav ul li a {
+    height: 28px;
+    width: 100%;
+    background-color:#5f1729 ;
+    border-radius: 5px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.header nav {
+    display: flex;
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 100px;
+}
+.header nav ul li {
+    display:  flex;
+    margin-left: 100px;
+}
+#body-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(73, 71, 69);
+    color: #ffffff;
+}
+section ul li {
+    font-size: 18px;
+}
+a:link, a:visited {
+    color: #ffffff;
+}
+
+ .hero {
+    height: 240px;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: #010014;
+    background-image: url("../images/duck.PNG");
+    background-size: cover;
+    background-position: center; 
+} 
