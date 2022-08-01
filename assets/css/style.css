@@ -5,7 +5,7 @@
     background-color: rgb(73,71,69);
 }
 .header {
-    padding: 20px;
+    padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(73,71,69);
     color: #ffffff;
@@ -46,6 +46,7 @@ h1 {
     list-style-type: none;
     position: absolute;
     right: 100px;
+    margin-top: 20px;
 }
 .header nav ul li {
     display:  flex;
