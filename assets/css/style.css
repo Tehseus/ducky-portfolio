@@ -13,7 +13,6 @@
 }
 header, nav{
     background-color: rgb(73,71,69);
-    color:black;
 }
 article{
     background-color: darkgrey;
@@ -41,7 +40,6 @@ h1 {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    background-color: black;
 }
 .header nav ul {
     display: flex;
@@ -58,21 +56,22 @@ h1 {
     margin-right: auto;
     padding: 100px;
 }
+
 .card {
     margin-bottom: 20px;
     padding: 50px;
-    height: 200px;
+    height:max-content;
+    width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:rgb(73, 71, 69);
     color: #ffffff;
 }
 section ul li {
-    font-size: 18px;
+    font-size: 16px;
 }
 a:link, a:visited {
     color: #ffffff;
 }
-
  .hero {
     height: 240px;
     width: 225px;
