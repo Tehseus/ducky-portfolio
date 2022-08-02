@@ -1,67 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Grayson's Portfolio</title>
+<html>
+  <head>
+    <title>Grayson's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/duck.PNG">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <header class="header">
-        <h1>
-            <a href="./assets/images/duck.PNG" alt="picture of rubber duck swimming in pool with sunglasses on"></a>
-            Grayson's Portfolio
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">about me</a>
-                </li>
-                <li>
-                    <a href="#my-work">my work</a> 
-                </li>
-                <li>
-                    <a href="#contact-me">contact me</a>
-                </li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <!-- portfolio header -->
+    <header>
+      <h1>Grayson's Portfolio</h1>
     </header>
-    
-    <article id="body-content">
-        <section class="hero"></section>
-        <section id="about-me" class="card"> 
-            <h2>about me :</h2>   
+
+    <!-- Navbar -->
+    <nav class="nav-text">
+        <a href="#about-me">about me</a>
+        <a href="#my-work">my work</a>
+        <a href="#contact-me">contact me</a>
+    </nav>
+    <main>
+      <!-- Sidebar content -->
+      <aside>
+        <h2>Placeholder Sidebar</h2>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem, totam, recusandae tempora distinctio dolor similique ut, accusamus iure excepturi fuga aspernatur vero quaerat! Quia repellat in sint ducimus doloremque.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem quidem minus quaerat saepe impedit illum tempora odit voluptate corporis reprehenderit voluptatum, quam atque, quasi laudantium aut quos non molestias?</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quae doloribus ab, consequuntur velit ad eos, in repellat, repellendus labore quibusdam rerum. Animi amet quia aspernatur nostrum voluptas distinctio incidunt?</li>
+      </aside>
+      <!-- Portfolio sections -->
+      <div class="products">
+        <section id="about-me" class="card">
+        <header>about me</header>
             <ul>
                 <li>
-                    Born and raised in Columbus, Ohio. Lived in Austin, Texas for 4 years before returning to Columbus.
+                Born and raised in Columbus, Ohio. Lived in Austin, Texas for 4 years before returning to Columbus.
                 </li>
                 <li>
-                    Returned to Columbus to be closer to Family.
+                Returned to Columbus to be closer to Family.
                 </li> 
                 <li>
-                    Hobbies include: Videogames, Ice hockey, and indoor/outdoor soccer.
-                </li> 
-                
+                Hobbies include: Videogames, Ice hockey, and indoor/outdoor soccer.
+                </li>   
             </ul>
-        </section><br>
+        </section>
         <section id="my-work" class="card">
-            <h2>my work :</h2>
-            <ul>
-                This section is a work in progress, I have linked my first code refactor below, will update as my portfolio grows. <br>
-                <a href="https://tehseus.github.io/horiseon-refactor/" target="_blank">horiseon-refactor</a>
+          <header>my work</header>
+          <ul>
+            <li>
+                This section is a work in progress, I have linked my first code refactor below, will update as my portfolio grows.
+            </li> 
+             <a href="https://tehseus.github.io/horiseon-refactor/" target="_blank"><img src="./assets/images/refactor_code.png"></a>
+             <p>Hint: Click meme above for code refactoring project.</p>
             </ul>
-        </section><br>
+        </section>
         <section id="contact-me" class="card">
-            <h2>contact me :</h2>
+            <header>contact me</header>
             <ul>
-                <li>phone: 614-582-2946</li>
                 <li><a href="mailto:graysonliv@gmail.com">email</a></li>
                 <li><a href="https://www.linkedin.com/in/graysonliv/" target="_blank">linkedin</a> </li>
-                <li><a href="https://github.com/Tehseus"target="_blank">github(wip)</a> </li>
+                <li><a href="https://github.com/Tehseus" target="_blank">github(wip)</a> </li>
+                <li>phone: 614-582-2946</li>
             </ul>
-        </section><br>
-    </article>
-</body>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <h3>
+       Thanks for visiting my page, feel free to contact me if you have any recommandations for upgrades!
+      </h3>
+    </footer>
+  </body>
 </html>
