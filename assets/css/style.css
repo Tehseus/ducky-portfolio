@@ -50,7 +50,7 @@ main {
   
 aside {
     flex: 1;
-    background-color: #b9c6ae;
+    background-color: #c99f45;
     padding: 80px;
     text-align: left;
 }
@@ -64,6 +64,9 @@ footer {
     color: #fff;
     margin-top: auto;
     font-size: 14px;
+}
+footer h3{
+  font-size: 22px;
 }
 aside{
   color: #13293d;
@@ -103,11 +106,11 @@ aside{
 .card img {
     width: 100%;
   }
-.card ul li a:link {
-    color: black;
+footer p a:link {
+    color: #fff;
 }
-.card ul li a:visited {
-  color: black;
+footer p a:visited {
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   main,
