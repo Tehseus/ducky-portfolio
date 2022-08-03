@@ -112,6 +112,10 @@ footer p a:link {
 footer p a:visited {
   color: #fff;
 }
+.headshot{
+  height: 200px;
+  width: 175px;
+}
 @media screen and (max-width: 768px) {
   main,
   nav {
