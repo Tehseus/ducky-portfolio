@@ -9,7 +9,13 @@ My personal work in progress portfolio, that will adapt and improve as I move th
 Install my project via git bash
 
 Use "Git Clone https://tehseus.github.io/ducky-portfolio/" to pull down repository
+Link to repository: https://github.com/Tehseus/ducky-portfolio
 
+Link to deployed app: https://tehseus.github.io/ducky-portfolio/
+
+## Screenshots
+
+![App Screenshot](https://github.com/Tehseus/ducky-portfolio/tree/main/assets/images/example_screenshot.PNG)
     
 ## Features
 
